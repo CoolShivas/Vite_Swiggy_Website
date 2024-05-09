@@ -1,0 +1,6 @@
+.restro_container{
+    background-color: #E2DFD0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

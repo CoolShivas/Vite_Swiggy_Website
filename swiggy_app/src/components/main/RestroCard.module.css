@@ -1,6 +1,22 @@
 .restro_card{
     background-color: #f1f1f1;
-    width: 150px;
-    height: 100px;
+    width: 250px;
+    height: auto;
     border: 1px solid black;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.restro_card__images img{
+    width: 100%;
+    height: auto;
+    cursor: pointer; 
+}
+
+.restro_card__images img:hover{
+    background-color: orange;
+}
+
+.restro_card__details{
+    padding: 10px;
 }

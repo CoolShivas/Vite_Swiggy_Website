@@ -1,3 +1,4 @@
+import styles from "./Body.module.css";
 import RestroCard from "./RestroCard";
 
 const Body = () => {
@@ -6,7 +7,17 @@ const Body = () => {
     <div className="body">
         <div className="search_bar">
             Search Bar
-            <div className="restro_container">
+            <div className={styles.restro_container}>
+                <RestroCard></RestroCard>
+                <RestroCard></RestroCard>
+                <RestroCard></RestroCard>
+                <RestroCard></RestroCard>
+                <RestroCard></RestroCard>
+                <RestroCard></RestroCard>
+                <RestroCard></RestroCard>
+                <RestroCard></RestroCard>
+                <RestroCard></RestroCard>
+                <RestroCard></RestroCard>
                 <RestroCard></RestroCard>
             </div>
         </div>
