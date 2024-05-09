@@ -1,3 +1,4 @@
+import Body from "./components/main/Body";
 import Header from "./components/header/Header";
 
 const App = () => {
@@ -6,7 +7,9 @@ const App = () => {
     <header>
       <Header></Header>
     </header>
-    <main></main>
+    <main>
+      <Body></Body>
+    </main>
     <footer></footer>
     </>
   )
