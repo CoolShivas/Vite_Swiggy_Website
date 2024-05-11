@@ -1,6 +1,6 @@
 import styles from "./RestroCard.module.css";
 
-const RestroCard = (props) => {
+const RestroCard = ({ resName, resCuisine, resStars, resTiming }) => {
   return (
     <>
       <div className={styles.restro_card}>
@@ -11,10 +11,10 @@ const RestroCard = (props) => {
         </div>
 
         <div className={styles.restro_card__details}>
-          <h3> {props.resName} </h3>
-          <h4> {props.resCuisine} </h4>
-          <h4> {props.resStars} stars </h4>
-          <h4> {props.resTiming} minutes </h4>
+          <h3> {resName} </h3>
+          <h4> {resCuisine} </h4>
+          <h4> {resStars} stars </h4>
+          <h4> {resTiming} minutes </h4>
         </div>
       </div>
     </>
